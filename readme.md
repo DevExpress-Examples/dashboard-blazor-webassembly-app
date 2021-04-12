@@ -10,4 +10,4 @@ The backend `Server` app is an ASP.NET Core application that process requests fr
 
 ## More Examples
 
-- [Get Started - Dashboard Component in Blazor Server Application](https://github.com/DevExpress-Examples/dashboard-blazor-webassembly-app)
+- [Get Started - Dashboard Component in Blazor Server Application](https://github.com/DevExpress-Examples/dashboard-blazor-server-app)
