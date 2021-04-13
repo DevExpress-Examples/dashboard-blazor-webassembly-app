@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="21.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Client\BlazorDashboardApp.Client.vbproj" />
+    <ProjectReference Include="..\Shared\BlazorDashboardApp.Shared.vbproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\Dashboards\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+</Project>
