@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="App_Data\Dashboards\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
