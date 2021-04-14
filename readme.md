@@ -2,7 +2,7 @@
 
 This project demonstrates how you can incorporate a DevExpress Dashboard component into a [Blazor WebAssembly](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-5.0#blazor-webassembly) application. Use it as a template when you need to create a similar web application.
 
-The backend `Server` app is an ASP.NET Core application that process requests from the client. A hosted Blazor WebAssembly `Client` app defines the UI for this component and the logic needed to respond to UI updates.
+The backend `Server` app is an ASP.NET Core application that processes requests from the client. A hosted Blazor WebAssembly `Client` app defines the UI for this component and the logic needed to respond to UI updates.
 
 ## Documentation
 
