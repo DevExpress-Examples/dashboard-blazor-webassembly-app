@@ -31,10 +31,8 @@ namespace BlazorDashboardApp.Server {
             services.AddRazorPages();
             services.AddDevExpressControls();
             services.AddMvc();
-
             services.AddScoped<DashboardConfigurator>((IServiceProvider serviceProvider) => {
                 DashboardConfigurator configurator = new DashboardConfigurator();
-
                 // Register Dashboard Storage
                 configurator.SetDashboardStorage(new DashboardFileStorage(FileProvider.GetFileInfo("App_Data/Dashboards").PhysicalPath));
                 // Create a sample JSON data source
@@ -45,7 +43,6 @@ namespace BlazorDashboardApp.Server {
                 jsonDataSourceUrl.RootElement = "Customers";
                 dataSourceStorage.RegisterDataSource("jsonDataSourceUrl", jsonDataSourceUrl.SaveToXml());
                 configurator.SetDataSourceStorage(dataSourceStorage);
-
                 return configurator;
             });
         }
