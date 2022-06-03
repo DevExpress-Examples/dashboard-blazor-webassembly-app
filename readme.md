@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Dashboard for Blazor WebAssembly - Get Started
 
-This project demonstrates how you can incorporate a DevExpress Dashboard component into a [Blazor WebAssembly](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-6.0#blazor-webassembly) application. Use it as a template when you need to create a similar web application.
+This project demonstrates how you can incorporate a DevExpress Dashboard component into a [Blazor WebAssembly](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-6.0#blazor-webassembly) application. Use it as a template when you need to create a similar web application. The example applies to framework .NET 6.
 
 ![Dashboard Blazor Server App](images/blazor-dashboard-app-gs.png)
 
