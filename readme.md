@@ -5,7 +5,9 @@
 <!-- default badges end -->
 # Dashboard for Blazor WebAssembly - Get Started
 
-This project demonstrates how you can incorporate a DevExpress Dashboard component into a [Blazor WebAssembly](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-5.0#blazor-webassembly) application. Use it as a template when you need to create a similar web application.
+This project demonstrates how you can incorporate a DevExpress Dashboard component into a [Blazor WebAssembly](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-6.0#blazor-webassembly) application. Use it as a template when you need to create a similar web application.
+
+![Dashboard Blazor Server App](images/blazor-dashboard-app-gs.png)
 
 The Dashboard component wraps the JavaScript [DashboardControl](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl) and uses an ASP.NET Core backend with the Dashboard Controller to handle client data requests.
 
@@ -13,7 +15,7 @@ The Dashboard component wraps the JavaScript [DashboardControl](https://docs.dev
 ## Files to Look At
 
 * [Dashboard.razor](./CS/BlazorDashboardApp/Client/Pages/Dashboard.razor)
-* [Startup.cs](./CS/BlazorDashboardApp/Server/Startup.cs)
+* [Program.cs](./CS/BlazorDashboardApp/Server/Program.cs)
 <!-- default file list end -->
 
 ## Documentation
