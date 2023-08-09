@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="22.2.2" />
+    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="23.1.*-*" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.5" />
   </ItemGroup>
@@ -23,4 +23,3 @@
 
 
 </Project>
-
